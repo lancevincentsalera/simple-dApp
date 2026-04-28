@@ -16,7 +16,7 @@ const txBuilder = new MeshTxBuilder({
   verbose: true,
 });
 
-type Recipient = {
+export type Recipient = {
   address: string;
   amount: string;
 };
