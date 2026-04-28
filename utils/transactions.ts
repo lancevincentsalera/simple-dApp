@@ -1,7 +1,7 @@
 import { BlockfrostProvider, MeshTxBuilder } from "@meshsdk/core";
 import type { MeshCardanoBrowserWallet } from "@meshsdk/wallet";
 
-const apiKey = process.env.NEXT_BLOCKFROST_PROJECT_ID;
+const apiKey = process.env.NEXT_PUBLIC_BLOCKFROST_PROJECT_ID;
 
 if (!apiKey) {
   throw new Error(
